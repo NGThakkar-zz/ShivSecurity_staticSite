@@ -1,0 +1,305 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="StaticSite.Site1" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta name="generator" content="xEpan, Epan Services, A Xavoc Technocrats Pvt Ltd Product epan.in xavoc.com">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+
+    <script type="text/javascript" src="templates/js/jquery-2.0.3.min.js"></script>
+
+    <script type="text/javascript" src="templates/js/start-atk4.js"></script>
+
+    <script type="text/javascript" src="templates/js/jquery-ui-1.11.master.js"></script>
+
+    <script type="text/javascript" src="templates/js/ui.atk4_loader.js"></script>
+
+    <script type="text/javascript" src="templates/js/ui.atk4_notify.js"></script>
+
+    <script type="text/javascript" src="templates/js/atk4_univ_basic.js"></script>
+
+    <script type="text/javascript" src="templates/js/atk4_univ_jui.js"></script>
+
+    <script type="text/javascript" src="vendor/xepan/base/templates/js/pnotify.custom.min.js"></script>
+
+    <script type="text/javascript" src="vendor/xepan/base/templates/js/xepan.pnotify.js"></script>
+
+    <link type="text/css" href="vendor/xepan/base/templates/css/pnotify.custom.min.css" rel="stylesheet" />
+
+    <link type="text/css" href="vendor/xepan/base/templates/css/animate.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="vendor/xepan/base/templates/js/xepan_jui.js"></script>
+
+    <link type="text/css" href="websites/sss/www/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="vendor/xepan/base/templates/js/bootstrap.min.js"></script>
+
+    <link type="text/css" href="vendor/xepan/base/templates/css/font-awesome.css" rel="stylesheet" />
+
+    <link type="text/css" href="websites/sss/www/css/mystyle.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        $(function () {
+            $.atk4.includeCSS("vendor/xepan/base/templates/css/jquery-ui.css");
+            $.atk4.includeCSS("vendor/xepan/cms/templates/owlslider/assets/owl.carousel.css");
+            $.atk4.includeCSS("vendor/xepan/cms/templates/owlslider/assets/owl.theme.default.css");
+            $.atk4.includeJS("vendor/xepan/cms/templates/owlslider/owl.carousel.js");
+            $.atk4.includeJS("vendor/xepan/base/templates/js/jquery.barrating.min.js");
+            $.atk4.includeCSS("vendor/xepan/base/templates/js/barthemes/bootstrap-stars.css");
+            $.atk4.includeJS("templates/js/ui.atk4_form.js");
+            $.atk4(function () {
+                $('#c7b59053__ter_rating_view_1_rating').barrating({ 'theme': 'bootstrap-stars', 'initialRating': '5', 'readonly': true });
+                $('#c7b59053__ter_rating_view_1').atk4_form([]);
+                ;
+            });
+            $.atk4.includeJS("vendor/xepan/base/templates/js/jquery.barrating.min.js");
+            $.atk4.includeCSS("vendor/xepan/base/templates/js/barthemes/bootstrap-stars.css");
+            $.atk4.includeJS("templates/js/ui.atk4_form.js");
+            $.atk4(function () {
+                $('#c7b59053__ter_rating_view_2_rating').barrating({ 'theme': 'bootstrap-stars', 'initialRating': '5', 'readonly': true });
+                $('#c7b59053__ter_rating_view_2').atk4_form([]);
+                ;
+            });
+            $.atk4.includeJS("vendor/xepan/base/templates/js/jquery.barrating.min.js");
+            $.atk4.includeCSS("vendor/xepan/base/templates/js/barthemes/bootstrap-stars.css");
+            $.atk4.includeJS("templates/js/ui.atk4_form.js");
+            $.atk4(function () {
+                $('#c7b59053__ter_rating_view_3_rating').barrating({ 'theme': 'bootstrap-stars', 'initialRating': '5', 'readonly': true });
+                $('#c7b59053__ter_rating_view_3').atk4_form([]);
+                ;
+            });
+            $.atk4(function () {
+                ;
+                ;
+                $("#front_index_xepan_cms_tool_testimonial_completelister .slider-wrapper").owlCarousel({ 'loop': true, 'items': 1, 'margin': 10, 'startPosition': 1, 'nav': false, 'dots': false, 'slideBy': 2, 'autoplay': true });
+                ;
+            });
+
+        });
+ </script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!--xEpan-ATK-Header-End-->
+    <!-- BASE CSS -->
+    <link href="websites/sss/www/css/mystyle.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="websites/sss/www/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="websites/sss/www/css/owl.theme.default.css">
+    <script src="websites/sss/www/js/common_scripts_min.js" style=""></script>
+    <script src="websites/sss/www/js/functions.js" style=""></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="overflow: visible; cursor: default; transform: none;">
+    <div class="xepan-v-body xepan-component xepan-sortable-component ui-sortable" xepan-component-name="Main Body" id="7f6b7967-71aa-436d-9ab2-b43c956f4942" text-color="" scrollamount="" style="transform: none; margin: auto; background-image: none;">
+
+        <div class="layer" style=""></div>
+        <!-- Mobile menu overlay mask -->
+        <div id="xepan-9d143392-85d2-4485-f33c-8bf68ce815e6" xepan-component="xepan/cms/Tool_Container" emptytext="Container" xepan-component-name="Container" class="xepan-component xepan-sortable-component xepan-cms-container ui-sortable topheader1" text-color="" data-extra-classes="topheader1" style="width: 100%; margin: 0px auto; border-top: 5px solid rgb(0, 130, 171);">
+            <div xepan-component="xepan/cms/Tool_Columns" style="min-height: 20px; margin: 0px;" xepan-component-name="Row/Columns" class="row xepan-component" id="xepan-b7f9882e-92c9-4811-d43e-b2c6dc931fb9" text-color="">
+
+                <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="1" data-md="1" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-1 col-md-1" id="xepan-6472e36a-1677-4114-9961-e98d37647d52" text-color=""></div>
+                <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="2" data-md="2" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-2 col-md-2" text-color="" id="xepan-5066ae1d-752c-4966-effb-e644077d84f4">
+                    <span xepan-component="xepan/cms/Tool_Image" xepan-component-name="Image" class="xepan-component" style="display: table; width: 160px; margin-right: auto; margin-left: auto;" text-color="" scrollamount="" id="xepan-e8b94e6c-f059-4a10-cfab-8286e53b3ae9">
+                        <img src="websites/sss/www/images/logo.png" style="max-width: 100%; height: 100%; width: 100%; height: inherit" data-extra-classes="" alt="Image" class="ui-resizable"></span>
+                </div>
+                <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="5" data-md="5" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-5 col-md-5" text-color="" id="xepan-50b12be9-b5e9-43eb-dfbe-af4b27414ad7">
+                    <div id="xepan-0e58183f-1427-47ef-e509-5f553fcb96af" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" contenteditable="false">
+                        <h2 style="text-align: left;" data-mce-style="text-align: left;">सदैव शाश्वतं च<br>
+                        </h2>
+                    </div>
+                    <div xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" id="xepan-98335ee3-ec59-4467-958c-d3e2f410afbe" contenteditable="false">
+                        <h2>
+                            <span style="color: rgb(0, 0, 0);" data-mce-style="color: #000000;">SHIV SECURITY SERVICES</span><br>
+                        </h2>
+                    </div>
+                </div>
+                <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="4" data-md="4" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-4 col-md-4" text-color="" id="xepan-87bb0e60-7401-41b5-fedf-be7fe739dbda">
+                    <div xepan-component="xepan/cms/Tool_Columns" style="min-height: 20px; margin-top: 5px;" xepan-component-name="Row/Columns" class="row xepan-component color-gray" id="xepan-997e5b5a-2302-4674-89fa-3133825b9898" text-color="" data-extra-classes="color-gray">
+                        <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="2" data-md="2" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-2 col-md-2 col-sm-12" id="xepan-18538ca5-0f6a-4efc-acb9-24f1a24d5d5c" text-color=""><i id="xepan-8ede0ea2-fbc1-41e8-ee13-7bf8b01ca678" xepan-component="xepan/cms/Tool_Icon" icon-link-target="none" icon-class="fa-phone" icon-size="fa-2x" icon-link="#" icon-align="text-center" style="width: 100%;" xepan-component-name="Icon" class="xepan-component xepan-cms-icon text-center fa fa-phone fa-2x" text-color="" onclick="window.open('#', '_self');"></i></div>
+                        <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="10" data-md="10" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-10 col-md-10" id="xepan-ba38f666-28e8-4c19-eb8f-d8fa2f13cbba" text-color="">
+                            <div id="xepan-405d7ccc-8c57-4d45-b0b2-0960d7e80838" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" contenteditable="false">
+                                <p>
+                                    <span style="font-size: 18px;" data-mce-style="font-size: 18px;"><strong>Call us</strong><br>
+                                        +91-989-862-9169<br>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div xepan-component="xepan/cms/Tool_Columns" style="min-height: 20px; margin-top: 0px;" xepan-component-name="Row/Columns" class="row xepan-component color-gray" text-color="" id="xepan-2c714039-c191-47db-9287-e8bc15daaabc" data-extra-classes="color-gray">
+                        <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="2" data-md="2" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-2 col-md-2 col-sm-12" text-color="" id="xepan-f29cf413-4d4f-4c75-cc91-87e7615d3ad5"><i xepan-component="xepan/cms/Tool_Icon" icon-link-target="none" icon-class="fa-envelope" icon-size="fa-2x" icon-link="#" icon-align="text-center" style="width: 100%;" xepan-component-name="Icon" class="xepan-component xepan-cms-icon text-center fa fa-envelope fa-2x" text-color="" id="xepan-eb264fd9-2ebc-48e1-d784-b9ae3ea9d899" onclick="window.open('#', '_self');"></i></div>
+                        <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="10" data-md="10" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-10 col-md-10" text-color="" id="xepan-540ba35a-c16a-4928-cfb7-4aafc4b2a27b">
+                            <div xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" id="xepan-c1b030ad-5038-4a70-920f-3440bfa45f13" contenteditable="false">
+                                <p>
+                                    <span style="font-size: 18px;" data-mce-style="font-size: 18px;"><strong>Email us</strong><br>
+                                        parasharstar_2007@yahoo.co.in</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div xepan-component="xepan/cms/Tool_Container" emptytext="Container" style="width: 100%; margin: 0px auto;" xepan-component-name="Container" class="xepan-component xepan-sortable-component xepan-cms-container ui-sortable" text-color="" id="xepan-1e291a60-0cc6-4825-dbe1-70920af6f8e3">
+            <nav id="xepan-1ca4b943-6aca-49d6-8baa-6ffd0b5ecfdb" style="" role="navigation" xepan-component="xepan/cms/Tool_BootStrapMenu" xbootmenu-align="left" xepan-component-name="BootStrap Menu" class="navbar navbar-default xepan-component" text-color="" scrollamount="" menu_group="1">
+                <div style="width: 87%; margin: 0px auto;" inner-width="87" inner-unit="%" class="navbar-inner-container">
+                    <div class="navbar-header">
+                        <button type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <div class="navbar-brand-wrapper navbar-brand"><a title="Brand Name" class="xepan-brand"></a></div>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse navbar-left">
+                        <ul id="xepan-boostrap-ul" class="nav navbar-nav navbar-right">
+                            <li data-page="index"><a href="Index.aspx"><i class="fa fa-home"></i>Home</a></li>
+                            <li data-page="about"><a href="AboutUs.aspx"><i class="fa fa-building-o"></i>About Us</a></li>
+                            <li class="dropdown dropdown-submenu" data-page="services">
+                                <a href="index4d9f.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs"></i>Services <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li data-page="corporate"><a href="Corporate.aspx"><i class=""></i>Corporate Services</a></li>
+                                    <li data-page="industrial"><a href="#"><i class=""></i>Industrial Services</a></li>
+                                    <li data-page="security"><a href="#"><i class=""></i>Security Services</a></li>
+                                </ul>
+                            </li>
+                            <li data-page="certificates"><a href="Certificates.aspx"><i class="fa fa-users"></i>Certificates</a></li>
+                            <li data-page="gallery"><a href="Gallery.aspx"><i class="fa fa-picture-o"></i>Gallery</a></li>
+                            <li data-page="contact"><a href="ContactUs.aspx"><i class="fa fa-envelope"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <script>
+                        $(document).ready(function () {
+                            $('#94873711__pan_cms_tool_bootstrapmenu .dropdown-toggle').dropdown();
+
+                            $('#94873711__pan_cms_tool_bootstrapmenu .dropdown-submenu a').on("click", function (e) {
+                                $(this).next('ul').toggle();
+                                e.stopPropagation();
+                                e.preventDefault();
+                            });
+                        });
+                    </script>
+                </div>
+            </nav>
+        </div>
+        <div id="preloader" style="display: none;">
+            <div data-loader="circle-side" style="display: none;"></div>
+        </div>
+        <!-- End Preload -->
+        <!-- Header ================================================== -->
+        <header class="" style="padding: 0px;">
+            <div class="container" xepan-component="xepan/cms/Tool_Container" emptytext="Container" xepan-component-name="Container">
+            </div>
+        </header>
+        <!-- End Header =============================================== -->
+        
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        
+        <footer>
+            <div xepan-component="xepan/cms/Tool_Container" emptytext="Container" style="width: 85%; margin: 0px auto;" xepan-component-name="Container" class="xepan-component xepan-sortable-component xepan-cms-container ui-sortable" id="xepan-4f169aa1-3025-42a9-f538-3110937ddf54" text-color="" scrollamount="">
+                <div xepan-component="xepan/cms/Tool_Columns" style="min-height: 20px;" xepan-component-name="Row/Columns" class="row xepan-component" id="xepan-dc69c226-ea8a-4f80-f247-0711e64fa7d2" text-color="" scrollamount="">
+                    <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="4" data-md="4" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column xepan-sortable-component xepan-component ui-sortable col-lg-4 col-md-4 col-sm-12 col-xs-12" id="xepan-9cca31ea-c279-4545-ae84-134591c8e6b9" text-color="" scrollamount="">
+                        <div xepan-component="xepan/cms/Tool_Columns" style="min-height: 20px;" xepan-component-name="Row/Columns" class="row xepan-component" id="xepan-2955c918-1962-4d2c-fb6e-1a6a8e8ce59d" text-color="">
+                            <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="5" data-md="6" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-md-6 col-lg-5" id="xepan-4fad2cc3-133b-46d6-8a6c-3cd645abd27d" text-color="">
+                                <span id="xepan-5f1413e7-bd8b-4404-c09c-5927bb7d4a18" xepan-component="xepan/cms/Tool_Image" xepan-component-name="Image" class="xepan-component" style="display: table; width: 141px; height: auto; overflow: hidden; margin-bottom: 10px;" text-color="" scrollamount="">
+                                    <img src="websites/sss/www/images/footerlogo.png" style="max-width: 100%; height: 100%; width: 100%; height: inherit" data-extra-classes="" alt="Image" class="ui-resizable"></span>
+                            </div>
+
+                            <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="7" data-md="7" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-7 col-md-7" id="xepan-95a996b0-17aa-4575-cc08-984a2dafbd3a" text-color="">
+                                <div id="xepan-8e03d187-f27b-4753-84fc-ee2af1943b5a" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" contenteditable="false">
+                                    <h4>
+                                        <span style="font-size: 24px; color: rgb(255, 255, 255);" data-mce-style="font-size: 24px; color: #ffffff;"><strong>SHIV SECURITY SERVICES</strong></span><br>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="xepan-09b1d358-392b-4306-e804-c479327c59ae" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body contact_details_footer" style="position: relative;" text-color="" data-extra-classes="contact_details_footer" scrollamount="" contenteditable="false">
+                            <ul id="contact_details_footer">
+                                <li>Shiv Security Services provides a kaleidoscope of specialized services which include uniformed guarding services, housekeeping services, skilled, semi skilled, unskilled labours, care taker,</li>
+                                <li>
+                                    <a href="index4d9f.html" data-mce-href="aboutus">Read More ...</a><br data-mce-bogus="1">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="5" data-md="5" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column xepan-sortable-component xepan-component ui-sortable col-sm-12 col-xs-12 col-lg-5 col-md-5" id="xepan-47b760dd-2583-4985-e326-1eefab6fdf66" text-color="">
+                        <div id="xepan-b8075d3a-9db9-40a1-da73-ae37907a416c" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" contenteditable="false">
+                            <p><span style="font-size: 24px;" data-mce-style="font-size: 24px;"><strong>Our Services</strong></span></p>
+                            <hr>
+                        </div>
+                        <div id="xepan-954c0129-d146-4221-8b11-62d282edacd8" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative; display: block;" text-color="" contenteditable="false">
+                            <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
+                                <li>Guarding and security related services. </li>
+                                <li>Detective and Investigation services.</li>
+                                <li>House Keeping Services.</li>
+                                <li>Providing security for monthly and daily basis.</li>
+                                <li>Manpower and staff supply.</li>
+                                <li>VIP / Executive Protection through PSO.</li>
+                                <li>Providing security for Special Events.</li>
+                                <li>Training Facilities</li>
+                                <li>Recruitment</li>
+                                <li>Surprise Inspection</li>
+                                <li>Supervision</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="3" data-md="3" data-sm="12" data-xs="12" class="xepan-cms-column xepan-sortable-component xepan-component ui-sortable col-lg-3 col-md-3 col-sm-12 col-xs-12" id="xepan-ce6bdaeb-691a-43f0-ee89-1ec00e2e6d94">
+                        <div xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative; display: block;" text-color="" id="xepan-fd8dc6d0-0189-47ca-fb71-4c72b6e78124" contenteditable="false">
+                            <h4>
+                                <span style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;"><strong><span style="font-size: 24px;" data-mce-style="font-size: 24px;">Contact Us</span></strong></span><br>
+                            </h4>
+                        </div>
+                        <div id="xepan-0341ada1-d332-4b6a-bd0a-6963afe47c06" xepan-component-name="Text" xepan-component="xepan/cms/Tool_Text" emptytext="Edit this text" class="xepan-component xepan-editable-text mce-content-body" style="position: relative;" text-color="" contenteditable="false">
+                            <p>
+                                <span style="font-size: 14px;" data-mce-style="font-size: 14px;">"PARASHAR" 14, Bhagwatinagar,</span><br>
+                                <span style="font-size: 14px;" data-mce-style="font-size: 14px;">Engineering Collage Road, Sidsar</span><br>
+                                <span style="font-size: 14px;" data-mce-style="font-size: 14px;">Via: Vertej, Dist.Bhavnagar, Gujrat </span>
+                            </p>
+                            <p>
+                                <span style="font-size: 18px;" data-mce-style="font-size: 18px;"><strong>Phone:<br>
+                                </strong>+91-989-862-9169<br>
+                                    <strong>Email: </strong>parasharstar_2007@yahoo.co.in</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="xepan-7988c3f5-8ddc-406a-9330-8ca99529bfbc" xepan-component="xepan/cms/Tool_Container" emptytext="Container" style="width: 85%; margin: 0 auto;" xepan-component-name="Container" class="xepan-component xepan-sortable-component xepan-cms-container ui-sortable text-center" text-color="" data-extra-classes="text-center">
+                    <div id="social_footer">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i id="xepan-72c04574-dc82-4c1f-c4eb-09fab023235a" xepan-component="xepan/cms/Tool_Icon" icon-link-target="window" icon-class="fa-facebook" icon-link="https://www.facebook.com" icon-align="text-center" style="width: 100%;" xepan-component-name="Icon" class="xepan-component xepan-cms-icon fa text-center fa-facebook" text-color="" scrollamount="" onclick="window.open('https://www.facebook.com/', '_blank');"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/">
+                                    <i xepan-component="xepan/cms/Tool_Icon" icon-link-target="none" icon-class="fa-twitter" icon-link="#" icon-align="text-center" style="width: 100%;" xepan-component-name="Icon" class="xepan-component xepan-cms-icon text-center fa fa-twitter" text-color="" scrollamount="" id="xepan-21433b2a-76d7-407a-be3a-179a3a940dbe" onclick="window.open('#', '_self');"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <i xepan-component="xepan/cms/Tool_Icon" icon-link-target="window" icon-class="fa-instagram" icon-link="https://www.instagram.com" icon-align="text-center" style="width: 100%;" xepan-component-name="Icon" class="xepan-component xepan-cms-icon fa text-center fa-instagram" text-color="" scrollamount="" id="xepan-21433b2a-76d7-407a-be3a-179a3a940dbe" onclick="window.open('https://www.instagram.com/', '_blank');"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p>© 2022 www.shivsecurityservices.com. All Rights Reserved. Developed by <a href="https://nishchalsoft.com/" target="_blank" style="color: yellow;">Nishchal Soft-Tech Pvt. Ltd.</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="websites/sss/www/js/common_scripts_min.js" style=""></script>
+        <script src="websites/sss/www/js/functions.js" style=""></script>
+    </div>
+</body>
+</html>

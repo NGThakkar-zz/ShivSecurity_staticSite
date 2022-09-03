@@ -1,0 +1,276 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0F41A13-D8F1-44D7-B54E-251F95B8DDDE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StaticSite</RootNamespace>
+    <AssemblyName>StaticSite</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44307</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Certificates.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Corporate.aspx" />
+    <Content Include="Gallery.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="indexb59a.html" />
+    <Content Include="templates\js\atk4_univ_basic.js" />
+    <Content Include="templates\js\atk4_univ_jui.js" />
+    <Content Include="templates\js\jquery-2.0.3.min.js" />
+    <Content Include="templates\js\jquery-ui-1.11.master.js" />
+    <Content Include="templates\js\start-atk4.js" />
+    <Content Include="templates\js\ui.atk4_form.js" />
+    <Content Include="templates\js\ui.atk4_loader.js" />
+    <Content Include="templates\js\ui.atk4_notify.js" />
+    <Content Include="vendor\xepan\base\templates\css\animate.css" />
+    <Content Include="vendor\xepan\base\templates\css\font-awesome.css" />
+    <Content Include="vendor\xepan\base\templates\css\jquery-ui.css" />
+    <Content Include="vendor\xepan\base\templates\css\pnotify.custom.min.css" />
+    <Content Include="vendor\xepan\base\templates\fonts\fontawesome-webfontba72.svg" />
+    <Content Include="vendor\xepan\base\templates\js\barthemes\bootstrap-stars.css" />
+    <Content Include="vendor\xepan\base\templates\js\bootstrap.min.js" />
+    <Content Include="vendor\xepan\base\templates\js\jquery.barrating.min.js" />
+    <Content Include="vendor\xepan\base\templates\js\pnotify.custom.min.js" />
+    <Content Include="vendor\xepan\base\templates\js\xepan.pnotify.js" />
+    <Content Include="vendor\xepan\base\templates\js\xepan_jui.js" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\blank.gif" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\fancybox_loading.gif" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\fancybox_overlay.png" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\fancybox_sprite%402x.png" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\fancybox_sprite.png" />
+    <Content Include="vendor\xepan\cms\templates\css\fancybox\jquery.fancybox.css" />
+    <Content Include="vendor\xepan\cms\templates\css\gallery.css" />
+    <Content Include="vendor\xepan\cms\templates\js\fancybox\jquery.fancybox.js" />
+    <Content Include="vendor\xepan\cms\templates\js\jquery.mixitup.min.js" />
+    <Content Include="vendor\xepan\cms\templates\owlslider\assets\owl.carousel.css" />
+    <Content Include="vendor\xepan\cms\templates\owlslider\assets\owl.theme.default.css" />
+    <Content Include="vendor\xepan\cms\templates\owlslider\assets\owl.video.play.png" />
+    <Content Include="vendor\xepan\cms\templates\owlslider\owl.carousel.js" />
+    <Content Include="Web.config" />
+    <Content Include="websites\sss\0\20190429070003_0_user.png" />
+    <Content Include="websites\sss\0\20190429070025_0_user.png" />
+    <Content Include="websites\sss\0\20190429070043_0_user.png" />
+    <Content Include="websites\sss\www\css\animate.min.css" />
+    <Content Include="websites\sss\www\css\bootstrap.min.css" />
+    <Content Include="websites\sss\www\css\fontello\css\fontello.css" />
+    <Content Include="websites\sss\www\css\fontello\css\icon_set_1.css" />
+    <Content Include="websites\sss\www\css\fontello\css\icon_set_2.css" />
+    <Content Include="websites\sss\www\css\fontello\font\fontello4508.svg" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_10367.svg" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_22249.svg" />
+    <Content Include="websites\sss\www\css\magnific-popup.css" />
+    <Content Include="websites\sss\www\css\menu.css" />
+    <Content Include="websites\sss\www\css\mystyle.css" />
+    <Content Include="websites\sss\www\css\owl.carousel.css" />
+    <Content Include="websites\sss\www\css\owl.theme.default.css" />
+    <Content Include="websites\sss\www\css\owl.video.play.png" />
+    <Content Include="websites\sss\www\css\responsive.css" />
+    <Content Include="websites\sss\www\css\style.css" />
+    <Content Include="websites\sss\www\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="websites\sss\www\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="websites\sss\www\images\3.jpg" />
+    <Content Include="websites\sss\www\images\certificate\images\SHIV_SECURITY_SERVICE_ISO_14001.jpg" />
+    <Content Include="websites\sss\www\images\certificate\images\SHIV_SECURITY_SERVICE_ISO_9001_page-0001.jpg" />
+    <Content Include="websites\sss\www\images\certificate\images\SHIV_SECURITY_SERVICE_OHSAS_18001.jpg" />
+    <Content Include="websites\sss\www\images\certificate\images\Shiv_Security_Service_Pan_Card.jpg" />
+    <Content Include="websites\sss\www\images\certificate\images\Shiv_Security_Service_Registration_Certificate.jpg" />
+    <Content Include="websites\sss\www\images\certificate\images\Shiv_Security_Service_Shop_Act_Liscence_Renewed.jpg" />
+    <Content Include="websites\sss\www\images\devider.png" />
+    <Content Include="websites\sss\www\images\footerlogo.png" />
+    <Content Include="websites\sss\www\images\image-1-sss.jpg" />
+    <Content Include="websites\sss\www\images\image-1.jpg" />
+    <Content Include="websites\sss\www\images\image-2-sss.jpg" />
+    <Content Include="websites\sss\www\images\image-2.jpg" />
+    <Content Include="websites\sss\www\images\logo.png" />
+    <Content Include="websites\sss\www\images\pattern.png" />
+    <Content Include="websites\sss\www\images\security-companies.jpg" />
+    <Content Include="websites\sss\www\images\Security-Guard.jpg" />
+    <Content Include="websites\sss\www\images\security\Cerimonial_Guard_2.jpg" />
+    <Content Include="websites\sss\www\images\security\Guards_1.jpg" />
+    <Content Include="websites\sss\www\images\shadow.png" />
+    <Content Include="websites\sss\www\images\Shiv_Security_Services_Logo_JPG.jpg" />
+    <Content Include="websites\sss\www\images\user.png" />
+    <Content Include="websites\sss\www\img\loader.html" />
+    <Content Include="websites\sss\www\img\sub_header_home.html" />
+    <Content Include="websites\sss\www\js\common_scripts_min.js" />
+    <Content Include="websites\sss\www\js\functions.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificates.aspx.cs">
+      <DependentUpon>Certificates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificates.aspx.designer.cs">
+      <DependentUpon>Certificates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Corporate.aspx.cs">
+      <DependentUpon>Corporate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corporate.aspx.designer.cs">
+      <DependentUpon>Corporate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="vendor\xepan\base\templates\fonts\fontawesome-webfontba72.eot" />
+    <Content Include="vendor\xepan\base\templates\fonts\fontawesome-webfontba72.ttf" />
+    <Content Include="vendor\xepan\base\templates\fonts\fontawesome-webfontba72.woff" />
+    <Content Include="vendor\xepan\base\templates\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="websites\sss\www\css\fontello\font\fontello4508.eot" />
+    <Content Include="websites\sss\www\css\fontello\font\fontello4508.ttf" />
+    <Content Include="websites\sss\www\css\fontello\font\fontello4508.woff" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_10367.eot" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_10367.ttf" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_10367.woff" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_22249.eot" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_22249.ttf" />
+    <Content Include="websites\sss\www\css\fontello\font\icon_set_22249.woff" />
+    <Content Include="websites\sss\www\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="websites\sss\www\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="websites\sss\www\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="websites\sss\www\fonts\glyphicons-halflings-regulard41d.eot" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62079</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44307/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
