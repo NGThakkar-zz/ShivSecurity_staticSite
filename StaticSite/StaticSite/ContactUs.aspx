@@ -102,7 +102,7 @@
                                             <br>
                                             <span style="font-size: 18px;" data-mce-style="font-size: 18px;">"PARASHAR" 14, Bhagwatinagar,<br>
                                                 Engineering Collage Road, Sidsar<br>
-                                                Via: Vertej, Dist.Bhavnagar, Gujrat </span>
+                                                Bhavnagar, Gujrat </span>
                                         </p>
                                     </div>
                                 </div>
